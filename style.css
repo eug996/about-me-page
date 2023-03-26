@@ -63,7 +63,7 @@ header h3{
 
     position: absolute;
     left: 0%;
-    width: 14vw;  
+    width: 8vw;  
     height: 67px;  
     
     top: 0%;
@@ -116,16 +116,19 @@ header h3{
     letter-spacing: 3px;
 }
 
+
+
 #backgroundpicture {
  float: right;
- position: relative;
- top: 4.1vw;
+ position: absolute;
+ top: 4.55vw;
  right: 0.2vw;
-
 
 }
 
 /* START PROFILE*/
+
+
 
 #profile {
     width: 100%;
@@ -154,6 +157,16 @@ header h3{
 
 }
 
+#profile h6 {
+    color: white;
+    font-size: 2vw;
+
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+    
+}
+
 /* END PROFILE*/
 
 /* START INTERESTS*/
@@ -164,7 +177,7 @@ header h3{
     height: auto;
 
     position: absolute;
-    top: 82vw;
+    top: 58vw;
     left: 2vw;
     z-index: 2;
 }
@@ -185,7 +198,84 @@ header h3{
     letter-spacing: 5px;
 }
 
+#Interests h6 {
+    text-align: left;
+    font-size: 2vw;
+    color: white;
+
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
 /* END INTERESTES*/
+
+/* start blog*/
+
+#blog {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 80vw;
+    left: 2vw;
+    z-index: 2;
+}
+
+#blog h3{
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+
+    border-bottom: 1px solid grey;
+    border-bottom-width: 1px;
+
+    word-spacing: 2px;
+    letter-spacing: 5px;
+
+}
+
+#blog p{
+    text-align: left;
+    font-size: 2vw;
+    color: white;
+
+    position: absolute;
+    top: 8vw;
+    left: 3vw;
+   
+}
+
+#Favouritebutton {
+    text-align: left;
+    font-size: 2vw;
+
+    position: absolute;
+    top: 24vw;
+    left: 3vw;
+
+    
+}
+
+label, textarea {
+    font-size: 3vw;
+    letter-spacing: 1px;
+    margin: 35vw;
+    
+}
+
+
+
+
+
+/* END blog*/
+
+
+
 
 /* START CONTACT*/
 
@@ -194,7 +284,7 @@ header h3{
     height: auto;
 
     position: absolute;
-    top: 130vw;
+    top: 152vw;
     left: 2vw;
     z-index: 2;
 }
@@ -214,6 +304,33 @@ header h3{
 
     word-spacing: 2px;
     letter-spacing: 5px;
+}
+
+
+#gitHublogo {
+    width: 7vw;
+    text-align: left;
+
+    position: absolute;
+    top: 17vw;
+    left: 19vw;
+
+    opacity: 0.95;
+    z-index: 3;
+}
+
+#LinkedInlogo {
+    width: 7vw;
+    text-align: left;
+
+
+
+    position:absolute;
+    top: 17vw;
+    left: 8vw;
+
+    opacity: 0.95;
+    z-index: 3;
 }
 /* END CONTACT*/
 
