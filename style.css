@@ -177,7 +177,7 @@ header h3{
     height: auto;
 
     position: absolute;
-    top: 58vw;
+    top: 50vw;
     left: 2vw;
     z-index: 2;
 }
@@ -217,7 +217,7 @@ header h3{
     height: auto;
 
     position: absolute;
-    top: 80vw;
+    top: 72vw;
     left: 2vw;
     z-index: 2;
 }
@@ -258,16 +258,17 @@ header h3{
     position: absolute;
     top: 24vw;
     left: 3vw;
-
+    cursor: pointer;
     
 }
 
 
 
+
 #commentcss{
     
-    color: red;
-    font-size: 3vw;
+    color: white;
+    font-size: 2vw;
     position: absolute;
     top: 30vw;
     left: 3vw;
@@ -278,10 +279,31 @@ header h3{
     color: white;
     text-align: left;
     font-size: 2vw ;
-    top: 46vw;
+    top: 44vw;
 
 
 }
+
+#button2 {
+    text-align: left;
+    font-size: 2vw;
+
+    position: absolute;
+    top: 12vw;
+    left: 0vw;
+    cursor: pointer;
+
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
 
 
 
@@ -302,7 +324,7 @@ header h3{
     height: auto;
 
     position: absolute;
-    top: 140vw;
+    top: 130vw;
     left: 2vw;
     z-index: 2;
 }
