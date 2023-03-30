@@ -14,20 +14,22 @@ liList.forEach(li => {
 
 
 
-
-
-
-favouriteButton.addEventListener("click", function (){
-
-    if (isFavourited===false){
-        favouriteButton.innerHTML= "Favourited!";
-        isFavourited= true;
-
+function toggleFavourite() {
+    if (isFavourited) {
+      favouriteButton.innerHTML = "Favourite";
+      favouriteButton.classList.remove("favourited");
+      favouriteButton.classList.add("not-favourited");
+      isFavourited = false;
     } else {
-        favouriteButton.innerHTML =" Favourite!";
-        isFavourited = false;
+      favouriteButton.innerHTML = "Favourited";
+      favouriteButton.classList.remove("not-favourited");
+      favouriteButton.classList.add("favourited");
+      isFavourited = true;
     }
-});
+  }
+  
+  favouriteButton.addEventListener("click", toggleFavourite);
+
 
 button.addEventListener("click", function(){
     let commentValue = commentsection.value;

@@ -262,6 +262,16 @@ header h3{
     
 }
 
+.not-favourited {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .favourited {
+    background-color: lawngreen;
+    color: #333;
+  }
+
 
 
 
